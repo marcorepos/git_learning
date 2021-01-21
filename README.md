@@ -3,7 +3,7 @@
 CMD> git config --global user.name "UserName"
 CMD> git config --global user.email UserName@example.com
 
-#List current configure
+# List current configure
 
 CMD> git config --list
 
@@ -47,5 +47,18 @@ CMD> git tag -d "v1.0.0"
 CMD> git push --delete origin "v1.0.0"
 
 
+
+# Create and apply patch
+CMD> git format-patch -1
+CMD> git apply xxxx.patch
+
+# Create new branch
+CMD> git checkout -b new_branch
+
+## Switch branch
+CMD> git checkout master
+
+# Remove branch 
+CMD> git branch -D test_branch
 
 
