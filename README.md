@@ -55,10 +55,27 @@ CMD> git apply xxxx.patch
 # Create new branch
 CMD> git checkout -b new_branch
 
-## Switch branch
+# Switch branch
 CMD> git checkout master
 
 # Remove branch 
 CMD> git branch -D test_branch
+
+# Rename branch
+CMD> git branch -m new_branch new2_branch
+
+# Update branch to remote repos
+CMD> git push origin new2_branch
+
+
+# Check branch log
+CMD> git pull
+CMD> git log origin/new2_branch -2
+
+
+# Merget branch
+CMD> git merge origin/new2_branch
+CMD> git push
+CMD> git branch -D new2_branch
 
 
