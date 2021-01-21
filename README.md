@@ -12,3 +12,7 @@ CMD> git status
 CMD> git clone https://xxxx
 
 CMD> git log -p -2
+
+
+# show the last commit file 
+CMD> git show 
