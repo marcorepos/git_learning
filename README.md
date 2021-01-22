@@ -1,7 +1,8 @@
 # Configure account information:
-
+'''ssh
 CMD> git config --global user.name "UserName"
 CMD> git config --global user.email UserName@example.com
+'''
 
 # List current configure
 
